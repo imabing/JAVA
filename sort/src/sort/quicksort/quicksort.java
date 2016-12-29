@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class quicksort {
 	public static int Quick_Sort_Partion(int R[],int left,int right)
-	{                                            //用递归方法把R[left]至R[righ]的记录进行快速排序
+	{                                             //用递归方法把R[left]至R[righ]的记录进行快速排序
 	    int temp, buf;                            //临时变量
 	    int i = left, j = right;
 
